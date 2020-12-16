@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$biluy:#FFFFFF;
+$zelen:#21C87A;
+$temzel:#198754;
+$grey:#646F79;
+$lightgrey:#F5F8FB;
+$fio:#796EFF;
+$darkfio:#483D8B;
+$black:#151B26;
+////////////////////////////////////////////////////////////////////////////////
+header{
+  background: url("img/1.png") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 680px;
+
+  .navbar-brand{
+    background:url("img/2.png") no-repeat;
+    min-width: 150px;
+    min-height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 0px;
+    margin: 10px 20px;
+  }
+  .navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, .5) ;
+  }
+
+  .nav-item{
+    padding: 0px 20px;
+  }
+
+  .btn{
+    background-color: $zelen;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+  }
+  .collapse{
+    margin-right: 50px;
+  }
+  }
+  .main{
+    min-height: 500px;
+    margin-top: 100px;
+  }
+  .text_container{
+
+
+  }
+  .form_container{
+    margin-left: auto;
+    width: 80%;
+    background-color: $biluy;
+    height: 400px;
+    padding: 40px 40px 0px 40px ;
+    border-radius: 4px;
+  }
+  .form-label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 20px;
+  }
+  .reg_btn{
+    &:hover{
+      background-color: $temzel;
+      border-color: $temzel;
+    }
+    background-color: $zelen;
+    border: none;
+    color:$biluy;
+    border-radius: 4px;
+  }
+  #my{
+    font-size: 15px;
+    color:$biluy;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+  }
+  #ym{
+    color:$biluy;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 67px;
+  }
+.form-control{
+  height: 53px;
+}
+
+@media screen and (max-width: 768px){
+  header{
+    .btn{
+      padding: 5px;
+    }
+    #my{
+      font-size: 2em;
+      line-height: 30px;
+    }
+    #ym{margin-top: 10px;
+      font-size: 2em;
+      line-height: 40px;
+    }
+    .form_container{
+      width: 100%;
+    }
+    .text{
+      text-align: center;
+    }
+  }
+
+}
+////////////////////////////////////////////////////////////////////////////////
+.root{
+  height: 120px;
+img{
+  width: 80px;
+  height: auto;
+}
+}
+////////////////////////////////////////////////////////////////////////////////
+section{
+  background-color: $biluy;
+  min-height: 500px;
+  margin-top: 100px;
+    .nav-link {
+    color: $grey!important;
+    background-color: $biluy!important;
+    padding: .5rem 0rem;
+    &:hover{
+      color: $zelen!important;
+    }
+  }
+  a{
+    color: $zelen;
+  }
+}
+////////////////////////////////////////////////////////////////////////////////
+.products {
+  min-height: 700px;
+  background: $lightgrey;
+  background-size: cover;
+}
+.carousel .carousel-inner .carousel-item img {
+  width: 700px;
+  height: 350px;
+  margin: auto;
+  object-fit: cover;
+  object-position: center; }
+
+  h2{
+    margin-top: 1em;
+  }
+
+  #too{
+    font-size: 12px;
+    background-color: rgba(121, 110, 255, 0.1);
+    border-radius: 99px;
+    display: inline;
+    padding: 7px 11px;
+    color: $fio;
+  }
+
+  #tt{
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+    font-size: 20px;
+    color:$grey;
+  }
+
+  @media screen and (min-width: 995px){
+    .products {
+      min-height: 700px;
+      padding: 5em;
+    }
+  }
+////////////////////////////////////////////////////////////////////////////////
+  .btn{
+    padding: 0.75em 2em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.bg-primary {
+  min-height: 500px;
+    background-color: $zelen!important;
+}
+.one{
+  margin-top: 2em;
+}
+.rec{
+  background-color: rgba(245, 248, 251, 0.1);
+  border-radius: 99px;
+  display: inline;
+  padding: 7px 13px;
+  color: $biluy;
+}
+#grey{
+  color: $grey;
+  font-size: 0.9375em;
+  margin-bottom: 3em;
+}
+.plans{
+  color: $fio;
+  font-size: 12px;
+  background-color: rgba(121, 110, 255, 0.1);
+  border-radius: 99px;
+  display: inline;
+  padding: 7px 11px;
+}
+.pur{
+  background: $fio;
+  border: none;
+  &:hover{
+    background: $darkfio;
+  }
+  padding: 0.75em 2em;
+}
+
+@media screen and (min-width: 995px){
+  .price{
+    min-height: 700px;
+    padding: 5em;
+  }
+}
+////////////////////////////////////////////////////////////////////////////////
+.space-2{
+  min-height: 250px;
+  margin-top: 5em;
+}
+@media screen and (max-width: 768px){
+  .text-secondary{
+    margin: 0em 1.5em;
+    padding-bottom: 2em;
+  }
+}
+////////////////////////////////////////////////////////////////////////////////
+footer{
+  .row{
+    background: url("img/20.png") no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 252px;
+    padding-left: 7em;
+
+  .text{
+    margin-bottom: 0.5em;
+    color: $biluy;
+    }
+  .purple{
+      background-color: $fio;
+      color: $biluy;
+    }
+  .btn{
+    padding: 1em 2em;
+  }
+  .lead{
+    color: $biluy;
+  }
+  .tet{
+    display: inline-block;
+  }
+  }
+}
+@media screen and (max-width: 768px){
+  .row{
+    padding: 0px 5px!important;
+  }
+}
+////////////////////////////////////////////////////////////////////////////////
+finish{
+      .folt{
+       min-height: 340px;
+       background-color:$black;
+       padding: 5em 10em;
+       .dropdown{
+       width: 6.25em;
+       height: 2.5em;
+       color:$grey;
+       }
+       .row{
+       padding: 2em 3em 2em 30em;
+       }
+        }
+     }
