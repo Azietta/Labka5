@@ -213,15 +213,5 @@ footer .row {
 @media screen and (max-width: 768px) {
   .row {
     padding: 0px 5px !important; } }
-finish .folt {
-  min-height: 340px;
-  background-color: #151B26;
-  padding: 5em 10em; }
-  finish .folt .dropdown {
-    width: 6.25em;
-    height: 2.5em;
-    color: #646F79; }
-  finish .folt .row {
-    padding: 2em 3em 2em 30em; }
 
 /*# sourceMappingURL=main.css.map */
