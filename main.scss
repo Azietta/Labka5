@@ -278,3 +278,42 @@ footer{
   }
 }
 ////////////////////////////////////////////////////////////////////////////////
+.bg-dark{
+    background-color:$black!important;
+}
+
+.finish{
+  min-height: 340px;
+  padding-top: 64px;
+  padding-bottom: px;
+}
+.footer{
+li{
+  font-size: 10px;
+  text-decoration: none;
+  color: red;
+  list-style: none;
+}
+}
+.footer{
+  .btn-text-secondary{
+  margin-bottom: 60px;
+  width: 100px;
+  border: 1px solid $grey!important;
+  border-radius: 4px;
+  color: $grey;
+  background-color: transparent!important;
+  text-decoration: none;
+  }
+  a{
+    list-style: none;
+    background-color: transparent!important;
+    border: none!important;
+
+  }
+}
+.footer{
+.mb-3{
+  margin-left: 20px!important;
+}
+}
